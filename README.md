@@ -1,27 +1,16 @@
-# Screen-time-_bed-time
-Health Data Analysis | Python, Pandas | Analyzed 15k records on screen time, sleep quality &amp; stress for wellness insights | EDA + visualizations
-# Sleep, Screen Time & Stress - Health Data Analysis
+sleep-debt-and-screen-time-late-night-phone-habits# Sleep Debt and Screen Time - Late Night Phone Habits
 
-**Target Role:** Remote Health Data Analyst
-**Tools:** Python, Pandas, Matplotlib, Seaborn
-**Dataset:** [Kaggle - 15k records](https://www.kaggle.com/datasets/jayjoshi37/sleep-screen-time-and-stress-analysis)
+**Health Data Analyst Project | R | Remote**
+**Dataset:** Samar Talwar | Kaggle | 8,500 records × 18 variables
+**Kaggle Path:** `/kaggle/input/sleep-debt-and-screen-time-late-night-phone-habits/`
 
 ### Business Problem
-Wellness company wants to understand how phone screen time impacts sleep and stress.
+How do late-night phone habits create sleep debt and affect next-day health?
 
-### What I Did
-1.  Cleaned & validated 15,000 records
-2.  Analyzed correlation: Screen Time vs Stress (+0.88), Screen vs Sleep Quality (-0.75)
-3.  Created visualizations for stakeholder reporting
+### Tools & Data
+- R, dplyr, ggplot2, readr
+- 18 vars: bedtime_phone_minutes, sleep_latency_min, total_sleep_hours, deep_sleep_pct, rem_sleep_pct, blue_light_filter_active, primary_bedtime_app, sleep_debt_category, next_day_fatigue_score + demographics
 
-### Key Insights
-1.  People with >6hrs screen time have high stress (7+ score)
-2.  Phone use before bed reduces sleep quality by 30%
-3.  Mental fatigue is the bridge between screen time and stress
-
-### Recommendation
-Wellness program should limit phone use 1hr before bed to improve sleep & reduce stress.
-
-### Files
-- `analysis.ipynb` - full analysis
-- `charts/` - visualizations
+### Analysis
+```r
+df <- read_csv("/kaggle/input/sleep-debt-and-screen-time-late-night-phone-habits/sleep_debt_and_screen_time.csv")
