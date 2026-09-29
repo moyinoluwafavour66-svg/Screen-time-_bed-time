@@ -25,5 +25,5 @@ Limit bedtime phone to <20 min + enable blue light filter + avoid TikTok/IG 1hr 
 - `analysis.R` = full R code (run in Kaggle)
 
 ### Author
-Moyinoluwa Blessing | Aspiring Remote Health Data Analyst | Enugu, NG | Open to Internships
+Moyinoluwa Blessing | Aspiring Remote Health Data Analyst | Ekiti, NG | Open to Internships
 Kaggle: [add your public notebook link here after you Save Version]
